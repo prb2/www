@@ -1,0 +1,10 @@
+
+<div class="sidebar">
+     <a href="./index.html">home</a>
+     <br>
+     <a href="./blog.html">blog</a>
+     <br>
+     <a href="./recipes.html">recipes</a>
+</div>
+
+

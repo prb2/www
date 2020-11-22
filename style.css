@@ -1,0 +1,81 @@
+@font-face {
+  font-family: Vollkorn;
+  src: url(fonts/Vollkorn-VariableFont_wght.ttf);
+}
+@font-face {
+  font-family: AlegreyaSans;
+  src: url(fonts/AlegreyaSans-Regular.ttf);
+}
+body {
+    font-family: Vollkorn, sans-serif;
+    width: 50%;
+    margin-top: 100px;
+    margin-left: 25%;
+    line-height: 1.2;
+}
+h1 {
+    font-family: AlegreyaSans;
+    font-size: 1em;
+    /*font-weight: bold;*/
+    background: black;
+    color: white;
+    border-radius: 3px;
+    margin-bottom: 10px;
+    /*padding: 2px 5px 2px 5px;*/
+    padding: 5px 5px 5px 5px;
+}
+h2 {
+    font-size: 1em;
+    font-family: AlegreyaSans;
+    font-weight: normal;
+    background: black;
+    color: white;
+    border-radius: 3px;
+    margin-bottom: 10px;
+    padding: 2px 5px 2px 5px;
+}
+a {
+    color: black;
+}
+h1 a {
+    color: white;
+}
+h2 a {
+    color: white;
+}
+blockquote {
+    font-style: italic;
+}
+code {
+    font-weight: bold;
+    font-family: AlegreyaSans;
+}
+
+hr {
+    border: 1px solid black;
+    border-radius: 3px;
+}
+
+.sidebar {
+    font-family: AlegreyaSans;
+    margin-top: 100px;
+    height: 100%;
+    width: 25%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    overflow-x: hidden;
+    line-height: 1.5;
+    padding-left: 30px;
+}
+@media only screen and (max-width: 1024px) {
+  body {
+    margin-left: 20%;
+    width: 70%;
+  }
+  .sidebar{
+    width: 20%;
+  }
+  /*TODO: maybe at sufficiently small widths, the sidebar should become a horizontal top bar*/
+}
